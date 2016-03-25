@@ -53,5 +53,6 @@ npm i -g typescript
 ## Utils
 
 ```
+Install-Package 7zip
 Install-Package greenshot
 ```
