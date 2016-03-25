@@ -21,7 +21,7 @@ Install-Package Discord
 Install-Package Skype
 ```
 
-## Editors
+## IDE / Editors
 
 ```
 Install-Package VisualStudio2015Community
