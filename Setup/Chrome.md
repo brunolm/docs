@@ -2,17 +2,15 @@
 
 ## Extensions
 
-```
-All Mangas Reader http://allmangasreader.com/
-BugMeNot Lite https://chrome.google.com/webstore/detail/bugmenot-lite/lackfehpdclhclidcbbfcemcpolgdgnb?hl=en
-Copy Link Name https://chrome.google.com/webstore/detail/copy-link-name/mafjnaphoepgijmgfeemillelgkeigid?hl=en
-Hola https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio?hl=en
-Postman https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
-React Developer Tools https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
-Rikaikun https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en
-Stylish https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
-uBlock Origin https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en
-```
+- [All Mangas Reader](http://allmangasreader.com/)
+- [BugMeNot Lite](https://chrome.google.com/webstore/detail/bugmenot-lite/lackfehpdclhclidcbbfcemcpolgdgnb?hl=en)
+- [Copy Link Name](https://chrome.google.com/webstore/detail/copy-link-name/mafjnaphoepgijmgfeemillelgkeigid?hl=en)
+- [Hola](https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio?hl=en)
+- [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+- [Rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en)
+- [Stylish](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en)
+- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 
 ## Patch to disable developer warning
 
