@@ -3,16 +3,7 @@
 To install [vscode](https://code.visualstudio.com/Docs/editor/setup#_linux):
 
 ```
-curl -L https://go.microsoft.com/fwlink/?LinkID=620884 > /tmp/vscode.zip
-unzip -qq /tmp/vscode.zip -d /tmp
-sudo cp -r /tmp/VSCode-linux-x64 /opt/vscode
-sudo ln -s /opt/vscode/Code /usr/local/bin/vscode
-sudo rm -rf /tmp/VSCode-linux-x64
-sudo rm -f /tmp/vscode.zip
-sudo touch /usr/share/applications/vscode.desktop
-sudo chmod 777 /usr/share/applications/vscode.desktop
-sudo echo -e "[Desktop Entry]\nName=VSCode\nComment=Visual Studio Code\nExec=/opt/vscode/Code\nIcon=/opt/vscode/resources/app/resources/linux/code.png\nType=Application\nVersion=1.0\nTerminal=false\nCategories=Development" > /usr/share/applications/vscode.desktop
-sudo chmod 644 /usr/share/applications/vscode.desktop
+Install-Package VisualStudioCode
 ```
 
 ## Extensions
