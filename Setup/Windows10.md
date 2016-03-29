@@ -41,6 +41,7 @@ Install-Package OBS
 
 ```
 Install-Package nodejs
+Install-Package cygwin
 Install-Package docker
 ```
 
