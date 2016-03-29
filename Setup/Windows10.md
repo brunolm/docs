@@ -26,7 +26,7 @@ Install-Package Skype
 ```
 Install-Package VisualStudio2015Community
 Install-Package VisualStudioCode
-Install-Package atom
+Install-Package Atom
 Install-Package notepadplusplus
 Install-Package vim -ProviderName chocolatey
 ```

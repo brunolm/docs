@@ -1,11 +1,7 @@
 # Atom
 
-To install Atom run:
-
 ```
-sudo add-apt-repository ppa:webupd8team/atom
-sudo apt-get update
-sudo apt-get install atom -y
+Install-Package Atom
 ```
 
 ## Packages
