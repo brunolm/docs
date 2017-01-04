@@ -1,5 +1,20 @@
 # Chrome Setup
 
+## Windows
+
+```
+curl http://dl.google.com/chrome/install/stable/chrome_installer.exe -OutFile (join-path $env:TEMP chrome_installer.exe); Start-Process (join-path $env:TEMP chrome_installer.exe) #"/silent /install"
+```
+
+## Linux
+
+```
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt-get update ; sudo apt-get install google-chrome-stable -qqy
+```
+
+
 ## Extensions
 
 - [All Mangas Reader](http://allmangasreader.com/)
@@ -11,8 +26,13 @@
 - [Rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en)
 - [Stylish](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en)
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+- [Workflowy Clipper](https://chrome.google.com/webstore/detail/workflowy-clipper/pmolhkonbppmihdpjmgclnclfppjndom)
+- [Workflowy Code Formatter](https://chrome.google.com/webstore/detail/workflowy-code-formatter/kglihipcanlbglgikjghocmbbbbkfemn)
+- [Workflowy Images](https://chrome.google.com/webstore/detail/workflowy-images/cnecfoeoohjnimhbcojcdfhhdllgleck)
 
 ## Patch to disable developer warning
+
+http://stackoverflow.com/a/30361260/340760
 
 ```
 <# :
