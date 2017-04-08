@@ -48,7 +48,7 @@ const size = {
 
 ```ts
 const text = 'Single quotes';
-const textComposed = `Single quotes ${size.width}x${size.height}`;
+const textComposed = `Template quotes ${size.width}x${size.height}`;
 ```
 
 ```jsx
