@@ -229,7 +229,7 @@ import parseUri from 'uri-sharp';
 
 ## React
 
-- When opening `{` always use a new line for the code
+- When opening `{` to add HTML code, always use a new line for the code
 - In a loop the parameter (HTML) passed in should end with a trailing comma
 - Always insert space after opening and before closing jsx expression braces
 - VSCode settings:
@@ -247,13 +247,34 @@ render() {
         this.props.list.map(item =>
           <div key={ item.id }>
             text
-            { this.props.shouldShow &&
+            {
+              this.props.shouldShow &&
               <div>Only if shouldShow is true this will be visible</div>
             }
           </div>,
         )
       }
     </div>
+  );
+}
+```
+
+- Example with inline code
+  - Ternary operator
+  - Events
+
+```jsx
+onClick = (event) => {
+  this.setState({
+    clicked: true,
+  });
+}
+
+render() {
+  return (
+    <select onClick={ this.onClick }>
+      <option value="">{ this.props.loading ? 'Loading...' : 'Select organization...' }</option>
+    </select>
   );
 }
 ```
