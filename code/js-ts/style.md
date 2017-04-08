@@ -1,5 +1,6 @@
 # Coding Style
 
+- 2 spaces
 - Always keep a space before and after (except if it would cause a trailing space):
   - `{` and `}`
   - Attribution
@@ -17,6 +18,16 @@ if(condition){ // WRONG!
 if (x>y) // WRONG!
 const a=b; // WRONG!
 const a = b // WRONG!
+```
+
+## Editor Config
+
+```
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
 ```
 
 ## Variables
