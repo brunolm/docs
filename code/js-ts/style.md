@@ -224,16 +224,28 @@ import fn from './fn'; // export default fn() { }
 import * as fns from './fn'; // fns.default, fns.types, fns.foo
 ```
 
+- Sort imports (I use the pattern defined by [sort-imports plugin for vs-code](https://marketplace.visualstudio.com/items?itemName=peterjuras.sort-imports))
+
 ```ts
-import './index.scss';
-import 'jquery';
-import 'bootstrap';
+import './index.scss'; // unsorted
+import 'jquery'; // unsorted
+import 'bootstrap'; // unsorted
 
 import * as $ from 'jquery';
 import * as React from 'react';
+import * as actions from '../../actions/home';
+import * as boardService from '../../services/board';
+import * as models from '../../api/models';
 
+import MultiSelect, { MultiSelectComponent } from '../Shared/MultiSelect';
+
+import Board from './Board';
+import OrganizationSelect from './OrganizationSelect';
+import RefreshButton from './RefreshButton';
+import { RootState } from '../../reducers/index';
+import { RouteComponentProps } from 'react-router';
+import SelectViewMode from './SelectViewMode';
 import { connect } from 'react-redux';
-
 import parseUri from 'uri-sharp';
 ```
 
