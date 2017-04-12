@@ -266,7 +266,7 @@ render() {
   return (
     <div>
       {
-        this.props.list.map(item =>
+        this.props.list.map((item) =>
           <div key={ item.id }>
             text
             {
