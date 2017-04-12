@@ -36,6 +36,7 @@ trim_trailing_whitespace = true
 - If the object has too many properties then use multiple lines, always with a trailing comma
 
 ```ts
+const empty = {};
 const size = { width: 10, height: 20 };
 const size = {
   width: 10,
@@ -55,6 +56,15 @@ const textComposed = `Template quotes ${size.width}x${size.height}`;
 render() {
   return (<div className="double-quotes">Hello World</div>);
 }
+```
+
+For arrays:
+
+```ts
+const arr = [1, 2, 3];
+arr[0] = 2;
+
+const empty = [];
 ```
 
 ## Conditional
