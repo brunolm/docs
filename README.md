@@ -1,3 +1,7 @@
 # Docs
 
-Commands, instructions, notes.
+Contains:
+
+- powershell aliases
+- base code configuration files
+- setup steps for various software
