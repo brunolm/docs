@@ -104,3 +104,22 @@ After that try to run the command, you will get error 1. To fix that:
 
 - Go to your device Settings > General > DeviceManagement
   - Trust your account/team
+
+## Install plugins
+
+With the following versions:
+
+```bash
+ionic -v
+# 3.19.1
+cordova -v
+# 8.0.0
+```
+
+Use `cordova-android@6.4.0` (v7+ doesn't work).
+
+```bash
+npm i -S cordova-android@6.4.0
+```
+
+Follow [steps at their documentation](https://ionicframework.com/docs/native/image-picker/) and go from there.
