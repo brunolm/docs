@@ -12,6 +12,8 @@ npm install -g cordova ionic
 - Install [Java JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - Install [Gradle](https://gradle.org/install/)
 - Install [Android Studio](https://developer.android.com/studio/index.html)
+  - (Windows) Install Windows build tools (link appears when trying to run a project)
+  - Install HAXM (link appears when trying to create an emulator)
 
 Make sure your $PATH includes:
 
